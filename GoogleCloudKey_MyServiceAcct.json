@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "crio-family",
+  "private_key_id": "639c460397ceebb44ab8a0b33458a5dc33c17566",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC8K8C/EF9Njfyw\nYOZUSMSCL+mou8BAqzmIJSeI3ZzZTE9Q/Hl9mZBZaxZS7YvyRtpNnMdAzaf9jLKQ\ne0yJ6g9bgxvtUXkMOYp/GNihSu/MAhC17M/U5O+8ksBEjy7R0VEBka4kuIVS2bnC\nyDbQd4wkmtCep1NjxUIeP9Byfy6njh++eCPl2YBQF9+QQKT9l+WchIZLltJFj3XE\nf3nM39lExGe5VOCt16zKkJjqpYtBDGOlThgGZ/KDmaGM4BLwogUSVp87gHD3WYhN\nqaQ6ThTG+m6WS6OOLltDOT7s8IfZpCNR7t97bwlPomIK7/7Pow6iXq82DRTvEqq1\nU+Yk2lX5AgMBAAECggEAD6yJUqD3f0tLeBmqNe0VyU5aZT62ZeydTzThFSp4jTUp\nCjLtn8Ox3XDpHCFDXfv+5SYhBsnaq2kT2qsalgZUHyhNpDf8IEOOwMV+Dfli/hhR\n8gV2zmH/gjKrJ0rR+JI58CqFWfOwz1Tpf0sUHctHdikbJYwEizP8LO7d2xuy9Cvi\nkLo/4lYGhaa3E7cGMPZ4MgV5QGQUz+Qff2mGjJ/CmAfG6Ec9lsCmAxvdfC/vFzlw\n/ZujL19ZzEDO4X9+AxAlyn0MaI1MuMxGUX5p4SSd5eRseXGh4vcQ9DQkloYSLdxT\nW86NJeusmkBeGhvF4cHIrVn0TQQcZERrX8VL62uNLQKBgQD9lU5sAvJUnfB7J9AT\nX1iWUaBHN5R1wHGwaa7mFqCdZR2TXPUSK002v8gbpKYRzEL74tbPiCv2EtzvxNi6\n2/RQoqXi9uZf1e7qAAlnwwkrxmHnQIxk54628tCiLghaTqLRywbmow3w1wCvcqbP\nyL+PBuh505XoUIafmnWOukBm8wKBgQC99tpv3//wG4QRzj59RC2HcySe2BvQ3ixK\nRu4fZ7ruybv7a/u9KLnKCuH47uTrN1RMXuDahhZqSYEhqJdtuGGx38br7pwqEvkU\nfVSruMIeNE5S0ZeCVtt71L3sk6OJmeTjyVBQzFXo+FQF264OLO+ruqoLOjXUlGEy\nuOuUlLDiYwKBgQD7t90rzNT+d/VCWyfqQwgt1wMSDrL5HDn+kznBPo7bDoeIQ4sm\nKQOxqDgccJlFK40GeosfYR26W8ki3TUCb9qavImMvee7FCLf939el7Uf1gJTSrjS\nZSU+p9PAWY+DDXIEbNQB17O78cDFaDr8IVs9v+6/F/BDtsOb5Phy4KGTTwKBgDbQ\np4GG0pSXbAmzSMbeyICAUj3fwE8J/R/FzeqUBRXocmz/YNnZiZrqfwBU9wuEoLeU\n3S9RZ+Btq2xp+KA5hz9LglwMM1XUubkW3TrcCm+qyjsNrbl3lMfrwI4moBcRqEGu\nkpVuERAzsBMsq9H9V39nUrAAsQ3Rbyayw4/RRCVfAoGAOaGUgYPwTcthL8CEcqwS\nRxtPrUqQnPuDsRWeNfT3lwGM5pBwRY5S0Y81XBSicC3ixYFqCRyRz5ls83xHKtL0\nBZ9Pr73vmhD2E25CEWEYp2tDZxFmenlpLck8PhYpDrJYAPf2RO0+Px70O6pmqdT1\nCoujTANW6W8pxGHYF/oa4B8=\n-----END PRIVATE KEY-----\n",
+  "client_email": "crio-family@appspot.gserviceaccount.com",
+  "client_id": "103641983486649300457",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/crio-family%40appspot.gserviceaccount.com"
+}
