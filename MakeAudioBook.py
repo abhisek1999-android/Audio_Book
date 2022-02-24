@@ -9,7 +9,7 @@ import sys
 import sys
 input=sys.argv[1]
 
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'GoogleCloudKey_MyServiceAcct.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'<YOUR SERVICE KEY.JSON>'
 class MakeAudio:
     def __init__(self) -> None:
         pass 
@@ -20,9 +20,9 @@ class MakeAudio:
             from google.cloud import storage
         except Exception as e:
             print("Modules are missing")
-        storage_client=storage.Client.from_service_account_json("GoogleCloudKey_MyServiceAcct.json")
+        storage_client=storage.Client.from_service_account_json("<YOUR SERVICE KEY.JSON>")
 
-        bucket =storage_client.get_bucket("audiobook-21022022")
+        bucket =storage_client.get_bucket("<YOUR-BUCKET-NAME>")
 
         from datetime import datetime
         (dt, micro) = datetime.utcnow().strftime('%Y%m%d%H%M%S.%f').split('.')
@@ -37,8 +37,8 @@ class MakeAudio:
         
         print("file uploded\n")
         
-        gcs_source='gs://audiobook-21022022/'+filename
-        gcs_dest='gs://audiobook-21022022/myfile'
+        gcs_source='gs://<YOUR-BUCKET-NAME>/'+filename
+        gcs_dest='gs://<YOUR-BUCKET-NAME>/DESTINATION'
 
         self.async_detect_document(gcs_source,gcs_dest)
 
@@ -167,9 +167,9 @@ class MakeAudio:
             from google.cloud import storage
         except Exception as e:
             print("Modules are missing")
-        storage_client=storage.Client.from_service_account_json("GoogleCloudKey_MyServiceAcct.json")
+        storage_client=storage.Client.from_service_account_json("<YOUR-SERVICE-KEY.JSON>")
 
-        bucket =storage_client.get_bucket("audio-book-musics-23022022")
+        bucket =storage_client.get_bucket("<YOUR-PUBLIC-MUSIC-BUCKET-NAME>")
 
         from datetime import datetime
         (dt, micro) = datetime.utcnow().strftime('%Y%m%d%H%M%S.%f').split('.')
