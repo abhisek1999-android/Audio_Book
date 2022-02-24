@@ -151,16 +151,16 @@ $(function() {
     <?php
 
         require __DIR__ .'/vendor/autoload.php';
-        $bucketName="audio-book-musics-23022022";
+        $bucketName="<YOUR-BUCKET-NAME>";
 
-        putenv("GOOGLE_APPLICATION_CREDENTIALS=GoogleCloudKey_MyServiceAcct.json");
+        putenv("GOOGLE_APPLICATION_CREDENTIALS=<YOUR-SERVICE-KEY.JSON>");
         use Google\Cloud\Storage\StorageClient;
 
         $storage = new StorageClient();
         $bucket = $storage->bucket($bucketName);
         foreach ($bucket->objects() as $object) {
 
-        $url="https://storage.googleapis.com/audio-book-musics-23022022/".$object->name();   
+        $url="https://storage.googleapis.com/<YOUR-BUCKET-NAME>/".$object->name();   
         $lotti_url="https://assets6.lottiefiles.com/packages/lf20_fmFSzb.json";
         $name=$object->name();
 
